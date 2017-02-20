@@ -1,0 +1,170 @@
+en:
+  password_confirmation: "Confirm password"
+  signup: "Create my account"
+  signup_success: "You have created account successful!"
+  error_login: "Invalid email/password, try again!"
+  log_in: "Log in"
+  user_all: "All users"
+  sign_up_now: "Sign up now!"
+  remember_me: "Remember me?"
+  new_user: "New user?"
+  save_changes: "Save changes"
+  filter: "Filter"
+  word_list_title: "Word List"
+  layouts:
+  save_changes: "Save changes"
+  follow: "Follow"
+  unfollow: "Unfollow"
+  following: "following"
+  follower: "followers"
+  view_profile: "view my profile"
+  login_require: "Please login first!"
+  create_lesson_complete: "Create lesson successful!"
+  create_lesson_fail: "Create lesson fail!"
+  start: "Start!"
+  submit: "Submit!"
+  category_name: "Category"
+  has: "has"
+  result_word: "Word"
+  category_learned: "You've finished this category"
+  update_lesson_complete: "You've finished lesson"
+  update_lesson_fail: "Lesson update fail! Please try again!"
+  not_select_answer: "You've not select answer!"
+  correct_answer: "(Correct answer)"
+  wrong_answer: "(Incorrect answer)"
+  your_answer: "Your answer"
+  member: "Member"
+  lesson: "Lesson"
+  learned_lesson: "Learned Lesson"
+  your_correct_answer: "Your correct answer"
+  ago: "ago"
+  created: "created "
+  in: "in"
+  from: "from"
+  words: "words"
+  total_answers: "Your total answer:"
+  total_correct_answers: "Your correct answer:"
+  percent_correct_answer: "(with %{number}% correct)"
+  learn_progress: "Complete percent:"
+  category_has_no_word: "There isn't any word in this category"
+  time:
+    minutes: "Minutes"
+    seconds: "Seconds"
+  layouts:
+    header:
+      website: "Framgia eLearning"
+      dashboard: "Dashboard"
+      home: "Home"
+      help: "Help"
+      statictics: "Statictics"
+      log_in: "Log in"
+      log_out: "Log out"
+      setting: "Setting"
+      profile: "Profile"
+      account: "Account"
+      title: "Fels"
+      team: "Team 3"
+    footer:
+      about: "About"
+      contact: "Contact"
+      team: "Team 3"
+  static_pages:
+    home:
+      statictics: "statictics"
+      activity: "activity"
+      welcome: "Welcome"
+      sign_up: "Sign up"
+      promotion: "Please login to learn and follow my account."
+      create_account_free: "to create account for free!"
+      or: "Or"
+      btn:
+        lesson: "New Lessons"
+        word: "All Words"
+  project: "Framgia E-learning System"
+  users:
+    edit:
+      update_profile: "Update profile"
+      require_log_in: "You must login"
+    user:
+      confirm: "Are you sure?"
+      delete: "Delete"
+    index:
+        user_all: "All users"
+  flash:
+    user:
+      update:
+        success: "Update profile successfully!"
+      delete:
+        success: "User deleted!"
+        fail: "User haven't been deleted yet!"
+  category:
+    index:
+      header: "All categories"
+      start: "Start"
+      word_learned_title: "You've learnt "
+      word: "word"
+    show:
+      words: "List words"
+  word:
+    all_words: "All words"
+    category_title: "Category"
+    option:
+      learned: "Learned"
+      not_learn: "Not learn"
+      all_words: "All word"
+    level:
+      _1: "easy"
+      _2: "medium"
+      _3: "hard"
+  admin:
+    dashboard:
+      admin_panel: "Admin panel"
+      home:
+        title: "Dashboard"
+        welcome: "Welcome admin"
+    word:
+      true_answer: You have to define at least 1 true answer
+      all_title: "All words"
+      title: "Word management"
+      add_title: "Add new word"
+      btn_add: "Save changes"
+      answer: "Answer"
+      correct: "Correct Choice"
+      btn_new_answer: "New answer"
+      btn_remove: "Remove"
+      add:
+        success: "Add word successfully!"
+        fail: "Add word fail!"
+      delete:
+        confirm: "Are you sure?"
+        display: "Delete"
+        success: "Delete word successfully!"
+        fail: "Delete word fail!"
+    category:
+      title: "Category management"
+      has: "has: "
+      word: "word"
+      add_title: "Add new category"
+      all_title: "All categories"
+      add_word:
+        btn: "Add new word"
+      add:
+        btn: "Add new"
+        title: "ADD NEW CATEGORY"
+        success: "Add category successfully!"
+        fail: "Add category fail!"
+        new_word: "Add words for this category"
+      delete:
+        btn: "Delete"
+        success: "Delete category successfully!"
+        fail: "Delete category fail!"
+        confirm: "Are you sure?"
+      update:
+        btn: "Edit"
+        success: "Update category successfully!"
+        fail: "Update category fail!"
+  activity:
+    follow: "followed"
+    unfollow: "unfollow"
+    learned: "learned"
+    learning: "learning"

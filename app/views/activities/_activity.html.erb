@@ -1,0 +1,12 @@
+<p>
+  <% case activity.action_type %>
+    <% when Settings.activity.follow, Settings.activity.unfollow %>
+      <% unless activity.action_object_name(User).nil? %>
+        <%= generate_activity activity, :follow %>
+      <% end %>
+    <% when Settings.activity.learned %>
+      <%= generate_activity activity, :learned %>
+    <% when Settings.activity.learning %>
+      <%= generate_activity activity, :learning %>
+  <% end %>
+</p>

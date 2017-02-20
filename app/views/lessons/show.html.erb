@@ -1,0 +1,5 @@
+<h1><%= t "lesson" %></h1>
+<%= t "category_name" %>:
+<%= link_to @lesson.category.name, @lesson.category %>
+<br>
+<%= render @lesson.solved ? "lesson_result" : "exam" %>

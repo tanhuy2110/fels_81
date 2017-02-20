@@ -1,0 +1,19 @@
+<div class="col-md-offset-3 col-md-7 panel panel-default">
+  <div class="panel-body">
+    <h3><%= link_to category.name, admin_category_path(category) %></h3>
+    <p>
+      <%= t "created" %><%= time_ago_in_words category.created_at %>
+      <%= t "ago" %> |
+      <%= link_to pluralize(category.words.size, t("admin.category.word")),
+        admin_category_path(category), class: "btn btn-info btn-xs" %> |
+      <%= link_to t("admin.category.add_word.btn"),
+        new_admin_word_path(category_id: category.id),
+        class: "btn btn-success btn-xs" %> |
+      <%= link_to t("admin.category.update.btn"),
+        edit_admin_category_path(category), class: "btn btn-warning btn-xs" %> |
+      <%= link_to t("admin.category.delete.btn"), admin_category_path(category),
+        method: :delete, data: {confirm: t("admin.category.delete.confirm")},
+        class: "btn btn-danger btn-xs" %>
+    </p>
+  </div>
+</div>
